@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tapsirma</title>
+    <style>
+        .box{
+            border: 1px solid black;
+        }
+
+       .profil{
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        vertical-align: middle;
+       }
+       span{
+        color: gray;
+       }
+
+       button{
+        border: none;
+        border-radius: 4px;
+        color: white;
+        background-color: blue;
+        padding: 5px 5px 5px 5px;;
+       }
+
+    .ulken-box{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 15px;
+    }
+        
+
+    
+    </style>
+</head>
+<body>
+    <div class="ulken-box">
+        <div class="box">
+            <div>
+                <img src="thumbnail-1.webp" alt="foto" width="100%">
+            </div>
+            <div>
+                <div style="display: block;">Oliver</div> 
+                <div>
+                    <img class="profil" src="channel-1.jpeg">
+                    <span>2 mutual friends</span>
+                </div> 
+                <div>
+                    <button>Add Firend</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div>
+                <img src="channel-2.jpeg" alt="foto" width="150px">
+            </div>
+            <div>
+                <div style="display: block;">Oliver</div> 
+                <div>
+                    <img class="profil" src="channel-1.jpeg" width="150px">
+                    <span>3 mutual friends</span>
+                </div> 
+                <div>
+                    <button>Add Firend</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div>
+                <img src="channel-3.jpeg" alt="foto" width="150px">
+            </div>
+            <div>
+                <div style="display: block;">
+                    <p>Oliver</p>
+                </div> 
+                <div>
+                    <img class="profil" src="channel-1.jpeg" width="150px">
+                    <span>4 mutual friends</span>
+                </div> 
+                <div>
+                    <button>Add Firend</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
