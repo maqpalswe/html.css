@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Login</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <style>
+        .inp6 {
+            width: 30px;
+            height: 35px;
+            border: 2px solid grey;
+            border-radius: 3px;
+            margin-right: 10px;
+        }
+
+        .search {
+            display: block;
+            width: 500px;
+            border: none;
+            border-radius: 24px;
+            padding: 10px 10px;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .enter {
+            background-color: blue;
+            width: 240px;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        .first_last {
+            width: 100px;
+            padding: 10px;
+            border: 1px solid gray;
+            border-radius: 5px;
+        }
+
+        .email {
+            width: 224px;
+            padding: 10px;
+            border: 1px solid gray;
+            border-radius: 5px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <form>
+        <!--1-tapsirma-->
+        <label>Login:</label><br>
+        <input type="text" required> <br>
+        <br>
+
+        <label>Parol:</label><br>
+        <input type="password" required>
+
+        <button type="submit">Kiriw</button> <br>
+
+        <hr>
+
+        <!--2-tapsirma-->
+        <h3>Hazir isleymiz yamasa oqiymiz?</h3>
+        <input type="radio" name="status">
+        <label>Oqiwshi</label> <br>
+
+        <input type="radio" name="status">
+        <label>Student</label> <br>
+
+        <input type="radio" name="status">
+        <label>Jumisshi</label> <br>
+
+        <hr>
+
+        <!--3-tapsirma-->
+        <label>Atiniz:</label>
+        <input type="text">
+
+        <br> <br>
+
+        <label>Jasiniz:</label>
+        <input type="number" min="15" max="120">
+
+        <br> <br>
+
+        <label>Jimsiniz:</label>
+        <input type="radio" name="status">Erkek
+        <input type="radio" name="status">Hayal
+
+        <br>
+
+        <button>Dizimnen otiw</button>
+        <button type="reset">Tazalaw</button>
+
+        <hr>
+
+        <!--4-tapsirma-->
+        <h3>Qaysi tillarni bilasiz?</h3>
+        <input type="checkbox">
+        <label>Ozbej tili</label>
+
+        <br>
+
+        <input type="checkbox">
+        <label>Ingliz tili</label>
+
+        <br>
+
+        <input type="checkbox">
+        <label>Rus tili</label>
+
+        <br> <br>
+
+        <button type="reset">Tazalaw</button>
+
+        <hr>
+
+        <!--5-tapsirma-->
+        <label>Sayttan izlew:</label>
+        <input type="text">
+        <button><i class="fa-solid fa-magnifying-glass"></i></button>
+
+        <hr>
+
+        <!--6-tapsirma-->
+
+        <h3>Gmail manzilinizge jiberilge 6 xanali kodti kiritiniz:</h3>
+
+        <input type="text" class="inp6">
+        <input type="text" class="inp6">
+        <input type="text" class="inp6">
+        <input type="text" class="inp6">
+
+        <hr>
+
+        <!--7-tapsirma-->
+
+        <p>Uy tapsirmasin (fayldi) tanlan:</p>
+        <input type="file">
+        <p><i>Esletpe: Fayl tanlaw majburiy!</i></p>
+        <br> <br> <br>
+
+        <!-- FORM PORT-II  -->
+        <hr>
+        <br> <br> <br>
+        <!-- II 1-tapsirma -->
+        <input type="text" placeholder="Name">
+        <br> <br>
+        <input type="email" placeholder="Email">
+
+
+        <hr>
+
+        <!-- II 2-tapsirma -->
+        <h1 style="margin-left: 160px; font-family: sans-serif;">
+            <span style="color: blue;">G</span><span style="color: red;">o</span><span
+                style="color: yellow;">o</span><span style="color: blue;">g</span><span
+                style="color: green;">l</span><span style="color: red;">e</span>
+        </h1>
+        <input type="text" placeholder="Search Google or type a URL" class="search">
+
+
+        <hr>
+
+        <input type="text" placeholder="First name" class="first_last" required>
+        <input type="text" placeholder="Last name" class="first_last" required> <br> <br>
+        <input type="email" placeholder="Email" class="email" required>
+
+        <br> <br>
+
+        <button class="enter">Dizimnen otiw</button>
+
+
+        <hr>
+
+        <!-- II 4-tapsirma -->
+
+        <input type="text" placeholder="Search"
+            style="border: 1px solid gray; border-radius: 90px 20px 20px 90px; width: 300px; padding: 8px;">
+        <button style="border: 1px solid gray; border-radius: 20px 90px 90px 20px; padding: 8px;"><i
+                class="fa-solid fa-magnifying-glass"></i></button>
+
+        <hr>
+        <!-- II 5-tapsirma --->
+
+        <label>Atinizdi jazin:</label>
+        <input type="text" required>
+
+        <button>Jiberiw</button>
+
+
+        <hr>
+
+        <!-- II 6-tapsirma -->
+
+        <label>Jimsiniz:</label> <br>
+        <input type="radio" name="status" required>Erkek
+        <input type="radio" name="status" required>Hayal
+        <br> <br>
+
+        <button type="submit">Jiberiw</button>
+
+        <hr>
+
+        <!-- II 7-tapsirma -->
+
+        <label><b>Parol kiritin:</b></label> <br>
+        <input type="password" required minlength="8">
+        <br> <br>
+
+        <button type="submit">Jiberiw</button>
+
+        <hr>
+
+        <!-- II 8-tapsirma -->
+
+        <label><b>Neshe nan alasiz?</b></label> <br>
+        <input type="number" min="1" max="10" required value="1">
+        <br> <br>
+        <button type="submit">Jiberiw</button>
+
+        <hr>
+
+        <!-- II 9-tapsirma -->
+
+        <label><b>Jaqisi korgen rendi tanlaw:</b></label> <br>
+        <input type="color" required value="green> 
+        <br><br>
+        <button>Jiberiw</button>
+
+    </form>
+</body>
+
+            </html>
+
+            
+    <!--Form part II 6-tapsirmasi-->
+    <form>
+         <label>Name:</label> <br>
+         <input type="text">
+          <br><br>
+         <label>Command:</label> <br>
+         <textarea rows="5" cols="25"></textarea>
+
+         <button style="display: block; margin-top: 10px;" type="submit">Sent commant</button>
+    </form>
+</body>
+</html>
+         <!--Form part bII 6-tapsirma-->
+    <html>
+       <body>
+      <form>
+        <label>Qandayn tagam unaydi</label>
+        <hr>
+        <select>
+            <option>5 barmaq</option>
+            <option>Palaw</option>
+            <option>shashlik</option>
+            <option>Baliq sorpa</option>
+            <option>baliq</option>
+            <option>manti</option>
+        </select>
+    </form>
+</body>
+</html>
+
+        <!-- III 1-tapsirma -->
+    <div>
+        <form>
+            <label><b>Oziniz haqqinda magliwmat beriw</b></label> <br>
+
+            <label for="first_name">Atiniz:<input type="text" id="first_name" name="first_name" required></label>
+            <br> <br>
+            <label for="email">Email:<input type="email" id="email" name="email" required></label>
+            <br> <br>
+            <label for="password">Parol:<input type="password" id="password" name="password" required></label>
+            <br> <br>
+
+            <span>Jinsi:</span>
+            <label><input type="radio" name="status" required>Erkek</label>
+            <label><input type="radio" name="status" required>Hayal</label>
+            <br>
+
+            <span>Xobbiy:</span>
+            <label><input type="checkbox" name="status" required>Shaxmat</label>
+            <label><input type="checkbox" name="status" required>Kitap oqiw</label>
+            <label><input type="checkbox" name="status" required>Sport</label>
+            <br>
+            <textarea placeholder="Oziniz haqqinda..." rows="5" cols="30"></textarea>
+            <br>
+            <span>Suwret:</span>
+            <input type="file">
+            <br><br>
+            <button>Jiberiw</button>
+
+            <hr>
+        </form>
+    </div>
+    <!-- III 2-tapsirma -->
+    <div>
+     <form>
+            <input type="text" placeholder="Atinizdi jazin"> 
+            <br> <br>
+            <span>Menin jaqsi kortugin miywem</span> 
+            <br> <br>
+            <select>
+                <option>Alma</option>
+                <option>Banan</option>
+                <option>Qulpinay</option>
+                <option>Juzim</option>
+                <option>Shabdali</option>
+            </select>
+            <br> <br>
+            <span>Ne ushin?</span> 
+            <br> <br>
+            <textarea rows="5" cols="30"></textarea>
+
+            <hr>
+        </form>
+    </div>
+</body>
+
+
+ <!--Part III tapsirma-03-->
+<style>
+    select{
+        width: 300px;
+        padding: 10px 10px 15px 15px;
+        margin-bottom: 15px;
+        box-sizing: border-box;
+    }
+    select:hover{
+        box-shadow: 5px 5px 5px lawngreen;
+
+    }
+
+    textarea{
+        width: 300px;
+        padding: 10px;
+        border: 2px solid lightcoral;
+        box-sizing: border-box;
+    }
+    textarea:hover{
+        border-color: blue;
+     
+    }
+</style>
+
+
+ <html>
+     <body>
+    <select>
+        <option>Xizmetti tanlan</option>
+        <option>Shashtarez</option>
+        <option>Ustaz</option>
+        <option>Dariger</option>
+        <option>Bloger</option>
+    </select>
+    <br><br>
+    <textarea placeholder="Pikirinizgi osi jerge jazin.." rows="5" cols="30"></textarea>
+</body>
+</html>
